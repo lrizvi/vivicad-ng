@@ -1,5 +1,5 @@
 # vivicad-ng
-*~A Jupyter environment for microsystem design and multiphysics simulation~*
+*\~A Jupyter environment for microsystem design and multiphysics simulation\~*
 
 This is a rewrite of the author's prior attempts at making devices entirely in Python.
 The ultimate goal is a practical toolset capable of CAD, modeling, and simulation tasks
