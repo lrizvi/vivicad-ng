@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "vivicad-ng"
+version = "0.1.0"
+description = "A Jupyter environment for microsystem design and multiphysics simulation"
+authors = ["Lilly Rizvi <rizvi.mu@northeastern.edu>"]
+repository = "https://github.com/lrizvi/vivicad-ng"
+readme = "readme.md"
+packages = [{include = "vivicad"}]
+
+[tool.poetry.dependencies]
+python = "~3.10"
+cadquery = "^2.3.1"
+numpy = "^1.25.1"
+matplotlib = "^3.7.2"
+pyvista = "^0.41.1"
+cadquery-massembly = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

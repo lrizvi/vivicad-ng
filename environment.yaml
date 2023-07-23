@@ -1,0 +1,14 @@
+name: vivicad-ng
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.10
+  - pip
+  - poetry
+  - fenics-dolfinx
+  - mpich
+  - pip:
+    - jupyter-cadquery
