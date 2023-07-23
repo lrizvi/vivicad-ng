@@ -65,3 +65,14 @@ or by other software.
 The container provides a portable and convenient environment
 for an end-user to interact with the package
 and included third-party software.
+
+**Q: How is the container built?**
+
+**A:** The container is defined by the `Containerfile` file.
+This file is configured to install necessary runtime software
+within the container.
+Included software is managed by [Micromamba](https://github.com/mamba-org/mamba#micromamba), a Conda-compatible package manager,
+and the container is built on top of [micromamba-docker](https://github.com/mamba-org/micromamba-docker).
+Conda packages are declared in `environment.yaml`.
+As a last step, the vivicad-ng Python package is installed within the package.
+Running the package will start a JupyterLab server at port `8888`.
