@@ -8,7 +8,9 @@ dependencies:
   - python=3.10
   - pip
   - poetry
+  - cadquery
+  - occt
   - fenics-dolfinx
   - mpich
-  - pip:
-    - jupyter-cadquery
+  - pyvista
+  - jupyterlab

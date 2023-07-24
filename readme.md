@@ -47,6 +47,11 @@ and mounts it in the container at `/mnt`.
 Alternatively, `${PWD}` can be replaced with an absolute path
 or appended with a subdirectory, e.g. `${PWD}/notebooks`.
 
+**Q: How do I fix Permission Denied errors when accessing files in a mounted directory?**
+
+**A:** Run `sudo chmod 777 <directory path>` on the mounted directory
+to allow the container to modify the contents.
+
 **Q: How do I add dependencies to this project?**
 
 **A:** There are two places to add dependencies.

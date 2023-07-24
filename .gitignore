@@ -1,3 +1,10 @@
+# FeniCSx
+*.bp/
+*.0
+*.idx
+*.h5
+*.xdmf
+
 # Emacs
 *~
 \#*\#
